@@ -1,0 +1,22 @@
+{
+  "name": "iota.hub.js",
+  "version": "0.1.0",
+  "description": "Input manager for IOTA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "IOTA",
+    "hub",
+    "inputs",
+    "library",
+    "input",
+    "managment"
+  ],
+  "author": "Chris Dukakis",
+  "license": "ISC",
+  "dependencies": {
+    "iota.lib.js": "^0.4.0"
+  }
+}
