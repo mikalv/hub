@@ -1,6 +1,5 @@
 module.exports = {
-  'hub'                 : require('./lib/hub').Hub,
-  'getAddress'          : require('./lib/hub').getAddress,
+  'getAddress'          : require('./lib/address').getAddress,
   'process'             : require('./lib/process').process,
   'sweep'               : require('./lib/process').sweep,
   'updateBalances'      : require('./lib/process').updateBalances,
