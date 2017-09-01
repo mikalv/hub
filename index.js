@@ -3,11 +3,11 @@ module.exports = {
   'process'                 : require('./lib/process').process,
   'sweep'                   : require('./lib/process').sweep,
   'updateBalances'          : require('./lib/process').updateBalances,
-  'replaySweeps'            : require('./lib/process').replaySweeps,
+  'replay'                  : require('./lib/transfer').replay,
   'getUnspentBalance'       : require('./lib/process').getUnspentBalance,
   'getAddressesWithBalance' : require('./lib/process').getAddressesWithBalance,
-  'sync'                    : require('./lib/sync'),
-  'transfer'                : require('./lib/transfer').tranfer,
-  'getPendingTransfers'     : require('./lib/transfer').getPendingTransfers,
-  'replayTransfer'          : require('./lib/transfer').replayTransfer
+  'sync'                    : require('./lib/sync').sync,
+  'getPendingTrasnactions'  : require('./lib/sync').getPendingTransactions,
+  'transfer'                : require('./lib/transfer').transfer,
+  'getInputs'               : require('./lib/transfer').getInputs
 };
