@@ -4,7 +4,6 @@
   "description": "Input manager for IOTA",
   "main": "index.js",
   "scripts": {
-    "prepush": "npm test",
     "test": "ava && standard"
   },
   "keywords": [
@@ -22,7 +21,6 @@
   },
   "devDependencies": {
     "ava": "^0.22.0",
-    "husky": "^0.14.3",
     "standard": "^10.0.3"
   }
 }
