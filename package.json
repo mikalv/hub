@@ -17,7 +17,8 @@
   "author": "Chris Dukakis",
   "license": "ISC",
   "dependencies": {
-    "iota.lib.js": "^0.4.0"
+    "iota.lib.js": "^0.4.0",
+    "pify": "^3.0.0"
   },
   "devDependencies": {
     "ava": "^0.22.0",
