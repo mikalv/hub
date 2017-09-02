@@ -4,7 +4,7 @@
   "description": "Input manager for IOTA",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "standard"
   },
   "keywords": [
     "IOTA",
@@ -18,5 +18,8 @@
   "license": "ISC",
   "dependencies": {
     "iota.lib.js": "^0.4.0"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3"
   }
 }
