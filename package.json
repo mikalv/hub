@@ -4,7 +4,7 @@
   "description": "Input manager for IOTA",
   "main": "index.js",
   "scripts": {
-    "test": "standard"
+    "test": "ava && standard"
   },
   "keywords": [
     "IOTA",
@@ -20,6 +20,7 @@
     "iota.lib.js": "^0.4.0"
   },
   "devDependencies": {
+    "ava": "^0.22.0",
     "standard": "^10.0.3"
   }
 }
