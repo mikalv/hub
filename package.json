@@ -17,6 +17,7 @@
   "author": "Chris Dukakis",
   "license": "ISC",
   "dependencies": {
+    "iota.crypto.js": "git+https://github.com/iotaledger/iota.crypto.js.git",
     "iota.lib.js": "^0.4.0",
     "pify": "^3.0.0"
   },
