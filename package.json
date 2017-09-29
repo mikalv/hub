@@ -18,7 +18,7 @@
   "license": "ISC",
   "dependencies": {
     "iota.crypto.js": "git+https://github.com/iotaledger/iota.crypto.js.git",
-    "iota.lib.js": "^0.4.0",
+    "iota.lib.js": "^0.4.1",
     "pify": "^3.0.0"
   },
   "devDependencies": {

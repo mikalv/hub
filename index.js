@@ -1,13 +1,13 @@
 const { getAddress, isSpent } = require('./lib/address')
-const { getAddressesWithBalance, getUnspentBalance, process, sweep } = require('./lib/process')
+const { getAddressesWithBalance, getUnspentBalance, process } = require('./lib/process')
 const { getConfirmedTransactions, getPendingTransactions, sync, updateBalances } = require('./lib/sync')
-const { getInputs, getInputWithLowestValue, isReattachable, replay, sendTrytes, transfer } = require('./lib/transfer')
+const { getInputs, getInputWithLowestValue, isReattachable, reattach, sendTrytes, transfer } = require('./lib/transfer')
+const errors = require('./lib/errors')
 
 module.exports = {
   getAddress,
   isSpent,
   process,
-  sweep,
   getUnspentBalance,
   getAddressesWithBalance,
   sync,
@@ -18,6 +18,7 @@ module.exports = {
   sendTrytes,
   getInputs,
   getInputWithLowestValue,
-  replay,
-  isReattachable
+  reattach,
+  isReattachable,
+  errors
 }
